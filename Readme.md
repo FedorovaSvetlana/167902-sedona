@@ -1,7 +1,7 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Светлана Фёдорова](https://up.htmlacademy.ru/adaptive/10/user/167902).
-* Наставник: `Неизвестно`.
+* Наставник: Артём Иванец.
 
 ---
 
