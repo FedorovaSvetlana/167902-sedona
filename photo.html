@@ -7,112 +7,110 @@
   <body>
     <header class="page-header">
       <div class="page-header__logo"><img src="http://placehold.it/102x83?text=Sedona" alt="City of Sedona"></div>
-      <nav class="page-menu page-menu--mobile">
+      <nav class="page-menu">
         <div class="page-menu__wrapper">
           <div class="page-menu__btn page-menu__btn--close"></div>
           <ul class="page-menu__items">
-            <li class="page-menu__item"><a class="page-menu__item-link" href="index.html">Главная</a></li>
-            <li class="page-menu__item"><a class="page-menu__item-link">Фото и видео</a></li>
+            <li class="page-menu__item"><a class="page-menu__item-link">Главная</a></li>
+            <li class="page-menu__item"><a class="page-menu__item-link" href="photo.html">Фото и видео</a></li>
             <li class="page-menu__item"><a class="page-menu__item-link" href="form.html">Форма отзыва</a></li>
             <li class="page-menu__item"><a class="page-menu__item-link" href="https://htmlacademy.ru">HTML Academy</a></li>
           </ul>
         </div>
-        <div class="page-menu__btn page-menu__btn--toggle"></div>
+        <div class="page-menu__btn"></div>
       </nav>
     </header>
 
-    <div class="intro">
-      <div class="intro-greeting intro-greeting--small">
-        <p class="intro-greeting__text">Sedona</p>
-      </div>
-    </div>
-
-    <section class="page-description">
-      <div class="common__container">
-        <h2 class="common__title common__title--big page-description__title">Фото и видео</h2>
-        <p class="common__text page-description__text">
-          Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике.
-        </p>
+    <section class="intro">
+      <div class="intro__img">
+        <img src="http://placehold.it/320x160?text=Sedona" alt="Sedona">
       </div>
     </section>
 
     <section class="photos">
-      <article class="photo-item common__container">
-        <div class="photo-item__img"><img src="http://placehold.it/280" alt=""></div>
-        <h3 class="common__title common__title--small photo-item__title">Народные просторы</h3>
-        <p class="photo-item__author">Автор фото: <span class="photo-item__author-name">Борис</span></p>
-        <div class="photo-item__votes">
-          <span class="photo-item__vote-icon"></span>
-          <span class="photo-item__vote-score">1550</span>
-        </div>
-      </article>
-      <article class="photo-item common__container">
-        <div class="photo-item__img"><img src="http://placehold.it/280" alt=""></div>
-        <h3 class="common__title common__title--small photo-item__title">Местная растительность</h3>
-        <p class="photo-item__author">Автор фото: <span class="photo-item__author-name">Сергей</span></p>
-        <div class="photo-item__votes">
-          <span class="photo-item__vote-icon"></span>
-          <span class="photo-item__vote-score">143</span>
-        </div>
-      </article>
-      <article class="photo-item common__container">
-        <div class="photo-item__img"><img src="http://placehold.it/280" alt=""></div>
-        <h3 class="common__title common__title--small photo-item__title">Дорога на север</h3>
-        <p class="photo-item__author">Автор фото: <span class="photo-item__author-name">Петр</span></p>
-        <div class="photo-item__votes">
-          <span class="photo-item__vote-icon"></span>
-          <span class="photo-item__vote-score">96</span>
-        </div>
-      </article>
-      <article class="photo-item common__container">
-        <div class="photo-item__img"><img src="http://placehold.it/280" alt=""></div>
-        <h3 class="common__title common__title--small photo-item__title">Мост Дьявола</h3>
-        <p class="photo-item__author">Автор фото: <span class="photo-item__author-name">Антон</span></p>
-        <div class="photo-item__votes">
-          <span class="photo-item__vote-icon"></span>
-          <span class="photo-item__vote-score">254</span>
-        </div>
-      </article>
+      <div class="photos__wrapper">
+        <h2 class="photos__title">Фото и видео</h2>
+        <p class="photos__text">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике.</p>
+        <article class="post">
+          <div class="post__img"><img src="http://placehold.it/280" widht="280" height="280" alt=""></div>
+          <h3 class="post__title">Народные просторы</h3>
+          <cite class="post__author">Автор фото: <span class="post__author-name">Борис</span></cite>
+          <div class="post__like">
+            <a href="#" class="post__like-icon"></a>
+            <span class="post__like-score">1550</span>
+          </div>
+        </article>
+        <article class="post">
+          <div class="post__img"><img src="http://placehold.it/280" widht="280" height="280" alt=""></div>
+          <h3 class="post__title">Местная растительность</h3>
+          <cite class="post__author">Автор фото: <span class="post__author-name">Сергей</span></cite>
+          <div class="post__likes">
+            <a href="#"  class="post__like-icon"></a>
+            <span class="post__like-score">143</span>
+          </div>
+        </article>
+        <article class="post">
+          <div class="post__img"><img src="http://placehold.it/280" widht="280" height="280" alt=""></div>
+          <h3 class="post__title">Дорога на север</h3>
+          <cite class="post__author">Автор фото: <span class="post__author-name">Петр</span></cite>
+          <div class="post__like">
+            <a href="#"  class="post__like-icon"></a>
+            <span class="post__like-score">96</span>
+          </div>
+        </article>
+        <article class="post">
+          <div class="post__img"><img src="http://placehold.it/280" widht="280" height="280" alt=""></div>
+          <h3 class="post__title">Мост Дьявола</h3>
+          <cite class="post__author">Автор фото: <span class="post__author-name">Антон</span></cite>
+          <div class="post__likes">
+            <a href="#"  class="post__like-icon"></a>
+            <span class="post__like-score">254</span>
+          </div>
+        </article>
+    </div>
     </section>
 
     <section class="video">
-      <div class="common__container">
-        <h2 class="common__title common__title--big video__title">Все еще сомневаетесь?</h2>
-        <p class="common__text video__text">
+      <div class="video__wrapper">
+        <h2 class="video__title">Все еще сомневаетесь?</h2>
+        <p class="video__text">
           Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!
         </p>
       </div>
       <div class="video-player">
         <div class="video-player__frame video-player__frame--mobile"><img src="http://placehold.it/320x200" alt=""></div>
-        <div class="video-player__controls common__container">
+        <div class="video-player__controls video-player__wrapper">
           <div class="video-player__volume-slider">
             <div class="video-player__volume-slider-bar"></div>
             <div class="video-player__volume-slider-knob"></div>
           </div>
           <div class="video-player__control-btns">
-            <span class="video-player__control-btn video-player__control-btn--replay">Replay</span>
-            <span class="video-player__control-btn video-player__control-btn--subtitles">Subtitles</span>
-            <span class="video-player__control-btn video-player__control-btn--enlarge">Enlarge</span>
+            <button class="video-player__control-btn video-player__control-btn--replay">Replay</button>
+            <button class="video-player__control-btn video-player__control-btn--subtitles">Subtitles</button>
+            <button class="video-player__control-btn video-player__control-btn--enlarge">Enlarge</button>
           </div>
         </div>
       </div>
     </section>
 
     <footer class="page-footer">
-      <div class="common__container">
-        <section class="page-footer__hashtag">
-          <a class="common__title common__title--big page-footer__hashtag-link" href="#">#visitsedona</a>
-        </section>
-        <section class="page-footer__socials">
-          <a class="common__btn common__btn--social page-footer__social-link page-footer__social-link--tw" href="#">Twitter</a>
-          <a class="common__btn common__btn--social page-footer__social-link page-footer__social-link--fb" href="#">Facebook</a>
-          <a class="common__btn common__btn--social page-footer__social-link page-footer__social-link--yt" href="#">Youtube</a>
-        </section>
-        <section class="page-footer__copy">
-          <a class="common__text page-footer__copy-link" href="https://htmlacademy.ru">
-            Разработано <span class="page-footer__copy-icon"></span>
+      <div class="page-footer__wrapper">
+        <div class="page-footer__hashtag">
+          <a class="page-footer__hashtag-link" href="#">#visitsedona</a>
+        </div>
+        <p class="page-footer__socials">
+          <span class="social-links">
+            <a class="social-link social-link--tw" href="#">Twitter</a>
+            <a class="social-link social-link--fb" href="#">Facebook</a>
+            <a class="social-link social-link--yt" href="#">Youtube</a>
+          </span>
+        </p>
+        <p class="page-footer__copy">
+          Разработано
+          <a class="btn page-footer__copy-link" href="https://htmlacademy.ru">
+            <span class="page-footer__copy-icon"></span>
           </a>
-        </section>
+        </p>
       </div>
     </footer>
   </body>
